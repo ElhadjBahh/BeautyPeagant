@@ -13,7 +13,7 @@ public class main {
 
         System.out.println("Enter your name: ");
 
-        Contestants diva1 = new Contestants()
+        Contestants diva1 = new Contestants();
 
 
         only5Diva++;
