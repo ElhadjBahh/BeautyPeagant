@@ -39,6 +39,8 @@ public class main {
 
                 System.out.println(D.getDivaName() + " Score is : " + D.getScoreCard());
 
+                // I need to create the judges
+
             }
 
 
