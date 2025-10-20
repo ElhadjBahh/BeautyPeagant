@@ -5,6 +5,7 @@ public class main {
     public static void main(String [] args) {
 
         Scanner Keyborad = new Scanner(System.in);
+        int judgeScore = 0;
 
         ArrayList<Contestants> diva = new ArrayList<>();
 
@@ -21,14 +22,29 @@ public class main {
 
         }
 
-        for (Contestants C : diva) {
 
-            System.out.println(C.getDivaName());
+
+            for (Contestants C : diva) {
+
+                System.out.println("Enter the Score for " + C.getDivaName());
+
+
+                judgeScore = Keyborad.nextInt();
+                C.setScoreCard(judgeScore);
+            }
+
+            for (Contestants D : diva) {
+
+                System.out.println(D.getDivaName() + " Score is : " + D.getScoreCard());
+
+            }
 
 
         }
 
 
+
+
     }
 
-}
+

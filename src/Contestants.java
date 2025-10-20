@@ -27,4 +27,5 @@ public class Contestants {
         return divaName;
     }
 
+
 }
