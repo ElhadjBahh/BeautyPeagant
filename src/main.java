@@ -5,7 +5,7 @@ public class main {
     public static void main(String [] args) {
 
         Scanner Keyborad = new Scanner(System.in);
-        int judgeScore = 0;
+        int judgeScore;
 
         ArrayList<Contestants> diva = new ArrayList<>();
 
@@ -31,6 +31,8 @@ public class main {
 
                 judgeScore = Keyborad.nextInt();
                 C.setScoreCard(judgeScore);
+
+
             }
 
             for (Contestants D : diva) {
