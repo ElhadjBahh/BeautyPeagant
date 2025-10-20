@@ -3,7 +3,7 @@ public class Contestants {
     String divaName;
     int scoreCard;
 
-    public Contestants (String name ) {
+    public Contestants (String name) {
 
         this.divaName = name;
         this.scoreCard = scoreCard;

@@ -1,32 +1,34 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class main {
 
     public static void main(String [] args) {
 
-        Scanner keybroad = new Scanner(System.in);
+        Scanner Keyborad = new Scanner(System.in);
+
+        ArrayList<Contestants> diva = new ArrayList<>();
+
+        for (int i = 0 ; i < 5; i++) {
 
 
-        int only5Diva = 5;
+            System.out.println("Enter your name: ");
+            String divaName = Keyborad.nextLine();
 
-    while (only5Diva <=5) {
+            Contestants diva1 = new Contestants(divaName);
 
-        System.out.println("Enter your name: ");
-
-        Contestants diva1 = new Contestants();
+            diva.add(diva1);
 
 
-        only5Diva++;
+        }
+
+        for (Contestants C : diva) {
+
+            System.out.println(C.getDivaName());
+
+
+        }
+
+
     }
 
-    }
-
-    public static void judges () {
-
-
-        int judgeInput;
-
-        System.out.println("Enter your score for " );
-
-    }
 }
