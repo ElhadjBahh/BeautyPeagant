@@ -48,6 +48,8 @@ public class main {
                 System.out.println(D.getDivaName() + " Score is : " + D.getScoreCard());
                 // We will add the score to keep track of the judges
 
+                // I need to create the judges
+
             }
 
 
